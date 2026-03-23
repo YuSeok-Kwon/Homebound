@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Skill(da-project-structure)"
+      "Skill(da-project-structure)",
+      "Bash(python3:*)",
+      "Bash(jupyter nbconvert:*)",
+      "Bash(pip3 install:*)",
+      "Skill(da-report-generator)",
+      "Bash(ls:*)",
+      "Bash(export KAKAO_REST_KEY:*)"
     ]
   }
 }
