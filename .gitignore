@@ -1,0 +1,39 @@
+# Data files (large files)
+01_raw_data/*.csv
+01_raw_data/*.xlsx
+01_raw_data/*.json
+01_raw_data/*.parquet
+01_raw_data/images/
+02_outputs/data/shelter_animals_tableau.csv
+02_outputs/interim/
+
+# Temporary
+999_Temporary/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large files)
+06_models/*.pkl
+06_models/*.joblib
+06_models/*.h5
+06_models/*.pt
+06_models/*.pth
+
+# Config secrets
+config/.env
+config/secrets.*
