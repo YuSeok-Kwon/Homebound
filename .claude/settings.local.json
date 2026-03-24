@@ -2,12 +2,18 @@
   "permissions": {
     "allow": [
       "Skill(da-project-structure)",
+      "Bash(find:*)",
       "Bash(python3:*)",
-      "Bash(jupyter nbconvert:*)",
+      "Bash(pip install:*)",
       "Bash(pip3 install:*)",
+      "Bash(jupyter nbconvert:*)",
+      "Bash(/opt/miniconda3/envs/py_study/bin/python:*)",
+      "Bash(/opt/miniconda3/envs/py_study/bin/jupyter nbconvert:*)",
+      "Bash(/opt/miniconda3/envs/py_study/bin/jupyter kernelspec:*)",
       "Skill(da-report-generator)",
       "Bash(ls:*)",
-      "Bash(export KAKAO_REST_KEY:*)"
+      "Bash(export KAKAO_REST_KEY:*)",
+      "mcp__git__git_log"
     ]
   }
 }
